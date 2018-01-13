@@ -15,10 +15,10 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<modules>
-				<module>group-parent</module>
-				<module>group-commons</module>
-				<module>group-http</module>
-				<module>group-service</module>
+				<module>../group-parent</module>
+				<module>../group-commons</module>
+				<module>../group-http</module>
+				<module>../group-service</module>
 			</modules>
 		</profile>
 	</profiles>
