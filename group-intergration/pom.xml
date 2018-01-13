@@ -7,9 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../group-parent</relativePath>
 	</parent>
-	<groupId>com.zwb</groupId>
 	<artifactId>group-intergration</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>group-intergration</name>
 	<description>group-intergration</description>
 	<dependencies>

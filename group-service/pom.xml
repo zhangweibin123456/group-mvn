@@ -6,9 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../group-parent</relativePath>
   </parent>
-  <groupId>com.zwb</groupId>
   <artifactId>group-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>group-service</name>
   <description>group-service</description>
@@ -16,6 +14,11 @@
 		<dependency>
 			<groupId>com.zwb</groupId>
 			<artifactId>group-commons</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zwb</groupId>
+			<artifactId>group-intergration</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		</dependencies>
