@@ -8,10 +8,10 @@
 		<relativePath>../group-parent</relativePath>
 	</parent>
 	<groupId>com.zwb</groupId>
-	<artifactId>group-http</artifactId>
+	<artifactId>group-intergration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>group-http</name>
-	<description>group-http</description>
+	<name>group-intergration</name>
+	<description>group-intergration</description>
 	<dependencies>
 		<dependency>
 			<groupId>com.zwb</groupId>
