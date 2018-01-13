@@ -17,7 +17,7 @@
 			<modules>
 				<module>../group-parent</module>
 				<module>../group-commons</module>
-				<module>../group-http</module>
+				<module>../group-intergration</module>
 				<module>../group-service</module>
 			</modules>
 		</profile>
