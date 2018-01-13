@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.zwb</groupId>
+	<artifactId>group-aggregator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>group-aggregator</name>
+	<description>group-aggregator</description>
+	<!-- 模块都写在此处 -->
+	<profiles>
+		<profile>
+			<id>Default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>group-parent</module>
+				<module>group-commons</module>
+				<module>group-http</module>
+				<module>group-service</module>
+			</modules>
+		</profile>
+	</profiles>
+
+</project>
