@@ -11,10 +11,10 @@
 	<!-- ftp connect -->
 	<bean id="ftpSessionFactory"
 		class="org.springframework.integration.ftp.session.DefaultFtpSessionFactory">
-		<property name="host" value="47.95.12.50" />
+		<property name="host" value="localhost" />
 		<property name="port" value="21" />
 		<property name="username" value="root" />
-		<property name="password" value="104728Abc" />
+		<property name="password" value="root" />
 	</bean>
 
 	<!-- ftp gateway -->
