@@ -13,7 +13,7 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service 启动报错暂时注释掉
 public class MailServiceImpl implements MailService{
 
 	@Autowired
